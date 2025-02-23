@@ -64,6 +64,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
     border-right: 1px solid rgb(214, 214, 214);
 }
 
@@ -74,13 +75,14 @@
     border: none;
     outline: none;
 
-    color: rgb(4, 30, 66);
     font-family: Jost;
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left
+
+    color: rgb(4, 30, 66);
 }
 
 .search_box input{
@@ -90,15 +92,14 @@
     border: none;
     outline: none;
 
-   
     font-family: Jost;
     ont-size: 15px;
     font-weight: 400;
     line-height: 22px;
     etter-spacing: 0%;
     text-align: left;
-
-color: rgb(98, 105, 116);
+    
+    color: rgb(98, 105, 116);
 }
 
 .nav_search_frame .search_icon_box{
@@ -109,7 +110,6 @@ color: rgb(98, 105, 116);
 
     justify-content: center;
     align-items: center;
-
     background:#F5C34B; 
 }
 
@@ -147,8 +147,8 @@ color: rgb(98, 105, 116);
     align-items: center;
 
     box-sizing: border-box;
-    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .box_icon_box img{
@@ -162,7 +162,6 @@ color: rgb(98, 105, 116);
 }
 
 .box_info_box span {
-
 font-family: Jost;
 font-size: 16px;
 font-weight: 400;
@@ -217,6 +216,7 @@ color: rgb(255, 255, 255);
 
         display: flex;
         flex-direction: row;
+
         border-top: 1px solid #5746a1;
     }    
     
