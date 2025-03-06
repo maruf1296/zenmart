@@ -320,3 +320,235 @@ color: rgb(255, 255, 255);
   
       color: rgb(255, 255, 255)
   }
+
+  /* =============FOOTER============= */
+  .footer_frame{
+    position: relative;
+    padding: 90px 0px 20px;
+    width: 100%;
+    height: auto;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgb(243, 245, 246);
+  }
+
+  .footer_frame .footer_spec_title {
+    margin-bottom: 30px;
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+  color: rgb(4, 30, 66);
+  }
+
+  .footer_frame .container {
+    flex-direction: column;
+  }
+
+  .footer_frame .container .footer_top {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer_frame .footer_top .footer_contact_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_frame .footer_contact_box .footer_contact_main {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer_frame .footer_contact_main img {
+    width: 35px;
+    height: 30px;
+  }
+
+  .footer_frame .footer_contact_main div {
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_frame .footer_contact_main div strong {
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    
+    color: rgb(4, 30, 66);
+  }
+
+  .footer_frame .footer_contact_main div span {
+    margin-top: 10px;
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    
+    color: rgb(4, 30, 66);
+  }
+
+  .footer_frame .footer_support_box {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_frame .footer_support_box a {
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+
+  color: rgb(4, 30, 66);
+  }
+
+  .footer_frame .footer_media_box {
+    margin-left: 55px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer_frame .footer_media_box .footer_media_main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .footer_frame .footer_media_main .media_box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer_frame .media_box i {
+    margin-right: 25px;
+  }
+
+  .footer_frame .footer_media_main .mobile_app_box {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .footer_frame .mobile_app_box img {
+    width: 24px;
+    height: 16px;
+  }
+
+  .footer_frame .mobile_app_box span {
+    margin-left: 20px;
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+
+  color: rgb(4, 30, 66);
+  }
+
+  .footer_frame .footer_media_main .card_box {
+    width: 272px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer_frame .container .footer_bottom {
+    margin-top: 90px;
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border-top: 1px solid rgb(234, 234, 234);  
+  }
+  
+  .footer_frame .footer_bottom .footer_main {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer_frame .footer_main .footer_bottom_left {
+    width: 940px;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .footer_frame .footer_bottom_left span {
+    margin-right: 60px;
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+
+    color: rgb(4, 30, 66);
+  }
+
+  .footer_frame .footer_main .footer_bottom_right {
+    width: 400px;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .footer_frame .footer_bottom_right .footer_select_box {
+    padding: 10px 20px;
+    width: 180px;
+    height: 40px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+
+    box-sizing: border-box;
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+    background: rgb(255, 255, 255);
+  }
+
+  .footer_frame .footer_select_box span {
+  font-family: Jost;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+
+  color: rgb(98, 105, 116);
+  }
+
+  .footer_frame .footer_select_box select {
+    margin-left: 20px;
+    width: 70px;
+    height: 90px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+
+    font-family: Jost;
+    font-size: 14px;
+    font-weight: 400;
+    
+    color: rgb(4, 30, 66);
+  }
+
+
+
