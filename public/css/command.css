@@ -554,5 +554,30 @@ color: rgb(255, 255, 255);
     color: rgb(4, 30, 66);
   }
 
+  /* ===========PAGE_ROUTER=========== */
+  .page_router {
+    margin-top: 21px;
+    width: 1320px;
+  }
+
+  .page_router span {
+    font-family: Jost;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: rgb(4, 30, 66);
+  }
+
+  .page_router .drop {
+    margin: 10px;
+  }
+
+  .page_router .active {
+    color:#626974;
+    
+  }
+
 
 
