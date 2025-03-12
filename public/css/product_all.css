@@ -554,8 +554,66 @@ root {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
+
+/* =========PAGINATION========== */
+.shop_page .pagination_box {
+    width: 460px;
+    height: 50px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shop_page .next_priv img {
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    
+    cursor: pointer;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border: 1px solid rgb(233, 222, 202);
+}
+
+.shop_page .number_box {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    cursor: pointer;
+    font-family: Jost;
+}
+
+.shop_page .number_box1.active {
+    width: 30px;
+    height: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+
+
+.shop_page .number_box1.active {
+    background-color: rgb(238, 170, 106);
+}
+
+.shop_page .number_box:hover {
+    background-color: #ccd5da79;
+}
+
+
+
 
 
 
