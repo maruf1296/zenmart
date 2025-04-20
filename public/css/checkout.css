@@ -1,0 +1,445 @@
+.checkout_page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout_page .title_div {
+    margin-top: 80px;
+
+    width: auto;
+    height: auto;
+}
+
+.checkout_page .title_div span {
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container {
+    margin-top: 60px;
+
+    width: auto;
+    height: auto;
+}
+
+.checkout_page .container .main_checkout {
+    width: auto;
+    height: auto;
+}
+
+
+.checkout_page .container .details {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.checkout_page .container .details span {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    color: rgb(4, 30, 66);
+}
+/* ===========NAME_INPUT=========== */
+.checkout_page .container .name_input_box {
+    margin-top: 20px;
+
+    width: auto;
+    height:auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout_page .container .name_input_box .name1 {
+    margin-right: 30px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_page .container .name_input_box .name1 label {
+    margin-bottom: 10px;
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .name_input_box .name1 input {
+    padding-left: 15px;
+
+    width: 413px;
+    height: 55px;
+    
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+}
+
+.checkout_page .container .name_input_box .name2 {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_page .container .name_input_box .name2 label {
+    margin-bottom: 10px;
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .name_input_box .name2 input {
+    padding-left: 15px;
+
+    width: 413px;
+    height: 55px;
+    
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+}
+/* ============NAME_INPUT_STOP============ */
+
+.checkout_page .container .company_box {
+    margin-top:20px;
+
+    width: auto;
+    height: auto;
+    
+    display: flex;
+}
+
+.checkout_page .container .company_box .company_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkout_page .container .company_box .company_name label {
+    margin-bottom:10px;
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .company_box .company_name input {
+    padding-left: 15px;
+
+    width: 888px;
+    height: 55px;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+}
+
+.checkout_page .container .region_box {
+    margin-top: 20px;
+
+    width: 888px;
+    height: auto;
+}
+
+.checkout_page .container .region_box .region {
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_page .container .region_box .region label {
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .region_box .region select {
+    padding-left: 15px;
+
+    width: 907px;
+    height: 58px;
+    
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+
+
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: rgb(98, 105, 116);
+}
+
+.checkout_page .container .shipping_box {
+    margin-top: 60px;
+
+    width: 888px;
+    height: auto;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.checkout_page .container .shipping_box .shipping span{
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .shipping_box .order {
+    margin-top: 20px;
+}
+
+.checkout_page .container .shipping_box .order span {
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .shipping_box .textarea textarea {
+    padding: 20px;
+
+    width: 888px;
+    height: 257px;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+    
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .order_box {
+    margin-left: 40px;
+    padding: 30px;
+
+    width:500px;
+    height:376px;
+
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid rgb(234, 234, 234);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.checkout_page .container .order_box .order {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .order_box .product1 {
+    margin-top: 24px;
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.checkout_page .container .order_box .product1 span {
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .order_box .product2 {
+    margin-top: 24px;
+
+    display: flex;
+    justify-content:space-between;
+}
+
+.checkout_page .container .order_box .product2 span {
+    margin-bottom: 42px;
+
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .order_box .sub {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid rgb(234, 234, 234);
+}
+
+.checkout_page .container .order_box .sub span {
+    margin-bottom: 10px;
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .order_box .place_order {
+    margin-top: 40px;
+
+    width: auto;
+    height: 152px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.checkout_page .container .order_box .place_order .check_box {
+    display: flex;
+}
+
+.checkout_page .container .order_box .place_order .check_box .check input {
+    margin-top: 7px;
+    
+    cursor: pointer;
+    width: 35px;
+    height: 15px;
+    
+}
+
+.checkout_page .container .order_box .place_order .check_box p {
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: rgb(4, 30, 66);
+}
+
+.checkout_page .container .order_box .place_order .order_button {
+    margin-top: 30px;
+    
+    width: auto;
+    height: 55px;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F5C34B;
+    border-radius: 6px;
+}
+
+.checkout_page .container .order_box .place_order .order_button button {
+    cursor: pointer;
+    border: none;
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: rgb(4, 30, 66);
+    background-color: #F5C34B
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
