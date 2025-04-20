@@ -555,7 +555,7 @@ color: rgb(255, 255, 255);
   }
 
   /* ===========PAGE_ROUTER=========== */
-  .page_router {
+    .page_router {
     cursor: pointer;
     margin-top: 20px;
     width: 1320px;
@@ -577,7 +577,6 @@ color: rgb(255, 255, 255);
 
   .page_router .active {
     color:#626974;
-    
   }
 
   

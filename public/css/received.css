@@ -1,0 +1,158 @@
+.received_page { 
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.received_page .head_box {
+    margin-top: 60px;
+
+    width: auto;
+    height: 170px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.received_page .head_box .ellipse {
+    width: 80px;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    background-color:rgb(68, 50, 151);;
+    border-radius: 50%;
+}
+
+.received_page .head_box span {
+    margin-top: 10px;
+
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+
+    color: rgb(4, 30, 66);
+}
+
+.received_page .head_box p {
+    margin-top: 10px;
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.received_page .order_main_info {
+    padding: 35px;
+    margin-top: 40px;
+
+    width: 1320px;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+
+    box-sizing: border-box;
+    border: 1px dashed rgb(187, 193, 202);
+    border-radius: 6px;
+}
+
+.received_page .order_main_info .info_box {
+    width: 930px;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.received_page .order_main_info .info_box .info{
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+
+.received_page .order_main_info .info_box .info p {
+    margin-top: 10px;
+}
+
+.received_page .order_detail_box {
+    padding: 50px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+
+    width: 1320px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 1px solid rgba(187, 193, 202, 0.336);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.received_page .order_detail_box .order_details {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+
+    color: rgb(4, 30, 66);
+}
+
+
+
+.received_page .order_detail_box .order_details div {
+    margin-bottom: 10px;
+    
+    display: flex;
+    justify-content: space-between;
+
+    border-top: 1px solid rgba(187, 193, 202, 0.336);
+}
+
+
+.received_page .order_detail_box .order_details div span {
+    margin-top: 18px;
+}
+
+.received_page .order_detail_box .order_details .apple2 {
+    border: none;
+}
+
+.received_page .order_detail_box .order_details .border {
+margin-top: 10px;
+
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
