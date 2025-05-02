@@ -1,0 +1,380 @@
+.about_page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about_page .img_container {
+    margin-top: 20px;
+
+    width: 1320px;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_page .img_container .header2_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_page .img_container .header5_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about_page .text_container {
+    margin-top: 50px;
+
+    width: 1320px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about_page .text_container .about h1 {
+    font-family: Jost;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .text_container .about h2 {
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .text_container .about p {
+    margin-top: 26px;
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .text_container .our {
+    margin-top: 30px;
+    padding-bottom: 60px;
+    
+
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid  rgb(234, 234, 234);
+}
+
+.about_page .text_container .our .mission {
+    width: 500px;
+    height: auto;
+}
+
+.about_page .text_container .our .vision {
+    width: 500px;
+    height: auto;
+}
+
+.about_page .text_container .our .mission p {
+    margin-top: 22px;
+
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .text_container .our .vision p {
+    margin-top: 22px;
+
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .text_container .our .mission span {
+    font-family: Jost;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .text_container .our .vision span {
+    font-family: Jost;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 29px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .reached_box {
+    margin-top: 60px;
+    padding-bottom: 60px;
+
+    width: 1320px;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: 1px solid  rgb(234, 234, 234);
+}
+
+.about_page .reached_box .reached span {
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .reached_box .items_box {
+    margin-top: 30px;
+
+    width: auto;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between; 
+}
+
+.about_page .reached_box .items_box .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.about_page .reached_box .items_box .info span {
+    font-family: Jost;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 72px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .reached_box .items_box .info p {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .leaders_box {
+    margin-top: 60px;
+
+    width: auto;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about_page .leaders_box .info_leaders_box {
+    padding-bottom: 60px;
+
+    width: 1320px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+
+    border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.about_page .leaders_box .leaders {
+    margin-bottom: 30px;
+}
+
+.about_page .leaders_box .leaders h1 {
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .leaders_box .info_leaders {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about_page .leaders_box .info_leaders img {
+    width: 301px;
+    height: 400px;
+
+    border-radius: 10px;
+}
+
+.about_page .leaders_box .info_leaders .img {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/leilani-angel-K84vnnzxmTQ-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.about_page .leaders_box .info_leaders .img .content {
+    position: absolute;
+    
+    width: 301px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color:rgb(243, 172, 8);;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+.about_page .leaders_box .info_leaders span {
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .leaders_box .info_leaders p {
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: rgb(98, 105, 116);
+}
+
+.about_page .choose_box {
+    margin-top: 60px;
+
+    width: 1320px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.about_page .choose_box h2 {
+    font-family: Jost;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .choose_box .items_box {
+    margin-top: 25px;
+    margin-bottom: 100px;
+
+    width: auto;
+    height: 115px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_page .choose_box .items_box .items {
+    width: auto;
+    height: 115px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about_page .choose_box .items_box .items span {
+    font-family: Jost;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 26px;
+
+    color: rgb(4, 30, 66);
+}
+
+.about_page .choose_box .items_box .items p {
+    font-family: Jost;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: rgb(98, 105, 116);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
